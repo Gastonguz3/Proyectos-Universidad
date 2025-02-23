@@ -1,0 +1,27 @@
+# ninja log v5
+0	654	1740232877886419764	CMakeFiles/gtest_main.dir/tests/gtest-1.8.1/gtest_main.cc.o	39b56df432e1dd81
+0	245	1740232877478416126	CMakeFiles/correrTests.dir/src/Lista.cpp.o	d03d9dc3aac249da
+0	697	1740232975355409847	CMakeFiles/correrTests.dir/tests/lista_tests.cpp.o	37a640b849290807
+2932	2966	1740232880198440479	libgtest.a	389bcb5c22f1fbf7
+655	664	1740232877898419871	libgtest_main.a	8364672d403d1d00
+215	353	1740233079964706897	correrTests	be35eb4faec096c0
+0	2932	1740232880158440119	CMakeFiles/gtest.dir/tests/gtest-1.8.1/gtest-all.cc.o	3dc4a601cc91466d
+0	215	1740233079828705074	CMakeFiles/correrTests.dir/Lista.cpp.o	c7e041812d0548cf
+0	18	1740233145013616166	build.ninja	2aa138ba4c9f70f9
+1	292	1740233145305620408	CMakeFiles/correrTests.dir/Lista.cpp.o	c7e041812d0548cf
+293	550	1740233145565624185	correrTests	be35eb4faec096c0
+2	219	1740235034314889035	CMakeFiles/correrTests.dir/Lista.cpp.o	c7e041812d0548cf
+2	686	1740235034778899093	CMakeFiles/correrTests.dir/tests/lista_tests.cpp.o	37a640b849290807
+686	819	1740235034910901954	correrTests	be35eb4faec096c0
+1	210	1740235514993397070	CMakeFiles/correrTests.dir/Lista.cpp.o	c7e041812d0548cf
+1	692	1740235515477407716	CMakeFiles/correrTests.dir/tests/lista_tests.cpp.o	37a640b849290807
+692	828	1740235515613410708	correrTests	be35eb4faec096c0
+1	683	1740235565094499582	CMakeFiles/correrTests.dir/tests/lista_tests.cpp.o	37a640b849290807
+0	209	1740235597251207699	CMakeFiles/correrTests.dir/Lista.cpp.o	c7e041812d0548cf
+209	349	1740235597391210783	correrTests	be35eb4faec096c0
+1	209	1740238811318889905	CMakeFiles/correrTests.dir/Lista.cpp.o	c7e041812d0548cf
+1	683	1740238811790889121	CMakeFiles/correrTests.dir/tests/lista_tests.cpp.o	37a640b849290807
+684	818	1740238811926888895	correrTests	be35eb4faec096c0
+1	208	1740238831038859121	CMakeFiles/correrTests.dir/Lista.cpp.o	c7e041812d0548cf
+1	688	1740238831518858423	CMakeFiles/correrTests.dir/tests/lista_tests.cpp.o	37a640b849290807
+688	827	1740238831654858225	correrTests	be35eb4faec096c0
