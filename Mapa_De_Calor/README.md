@@ -1,7 +1,7 @@
 ## Simulacion de un mapa de calor
 
 Simulacion de un mapa de calor empleando instrucciones **SIMD**, hecho con assembler, python y C 
-####Como correr los tests?
+#### Como correr los tests?
 1.  Poner en la terminal
 ```sh
 	$ make
