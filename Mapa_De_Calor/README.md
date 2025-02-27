@@ -18,9 +18,13 @@ Genera diferentes tamaños de las imagenes que se encuentran en el archivo data 
 ``` 
 Genera los resultados que se deben devolver y los compara con los que se devolvieron. En la carpeta Resultados_nuestros se pueden ver los resultados. Y por ultimo
 ```sh
- 	$ ./3_correr_test_mem.sh"
+ 	$ ./3_correr_test_mem.sh
  ```
  Corre los test de memoria
+
+ #### RESULTADO
+
+ ![](img/res.png)
 
 #### PRELIMINARES
 Consideramos a una imagen como una matriz de pı́xeles. Cada pı́xel está determinado por cuatro componentes: los colores azul(b), verde (g) y rojo (r), y la transparencia (a). En nuestro caso particular cada una de estas componentes tendrá 8 bits (1 byte) de profundidad, es decir, estarán representadas por números enteros en el rango [0, 255].
@@ -35,7 +39,7 @@ En función de la temperatura, se determina el color en la imagen destino. La te
 
 ![](img/funcionTemp.png)
 
-### ARCHIVOS Y USO
+#### ARCHIVOS Y USO
 + **build**: Los archivos objeto y ejecutables
 + **filters**: Las implementaciones del filtro de temperatura
 + **helper**: Los fuentes de la biblioteca BMP y de la herramienta de comparación de imágenes.
@@ -57,3 +61,5 @@ Los parametros de la funcion de temperatura son:
 
 El formato BMP es uno de los formatos de imágenes más simples: tiene un encabezado y un mapa de bits que representa la información de los pı́xeles.
 Aca se utilizará una biblioteca para operar con archivos en ese formato. Si bien esta biblioteca no permite operar con archivos con paleta, es posible leer tres tipos de formatos, tanto con o sin transparencia. Ambos formatos corresponden a los tipos de encabezado: BITMAPINFOHEADER (40 bytes), BITMAPV3INFOHEADER (56 bytes) y BITMAPV5HEADER (124 bytes).
+
+
