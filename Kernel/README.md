@@ -36,6 +36,7 @@ Ejecutar en la terminal:
 Este trabajo fue repartido en 4 etapas, a continuacion los archivos que se usaron en cada una
 
 1) **Segmentación y Pasaje a Modo Protegido**
+   
 En esta etapa deshabilitamos las interrupciones; completamos la GDT en memoria; cargamos la direccion de la GDT en el registro del procesador GDTR; habilitamos el modo protegido del procesador; hicimos un jpm far al segmento de codigo nivel 0; cargamos los selectores de segmentos restantes e hicimos el paso de Modo Real al Modo Protegido.
 
 + **Makefile**: encargado de compilar y generar la imagen del floppy disk.
@@ -51,6 +52,7 @@ En esta etapa deshabilitamos las interrupciones; completamos la GDT en memoria; 
 + **types.h**: Declaración de tipos comunes en el kernel.
 
 2) **Interrupciones**
+   
 Definimos la tabla de interrupciones (IDT); implementamos dos rutinas de atención de interrupción: la correspondiente al reloj y al teclado, y dos syscalls de nivel de usuario
 
 + **pic.c**, **pic.h**: funciones pic_enable, pic_disable, pic_finish1 y pic_reset.
@@ -60,12 +62,14 @@ Definimos la tabla de interrupciones (IDT); implementamos dos rutinas de atenci�
 + **orga2.py**: archivos extra para ayudar el debugging con gdb/qemu
 
 3) **Paginacion**
+   
 Inicializamos y habilitamos los mecanismos de manejo de memoria de nuestro kernel
 
 + **mmu.c**: Definicion de funciones del manejador de memoria
 + **mmu.h**: Declaracion de funciones del manejador de memoria
 
 4) **Tareas**
+   
 Definimos las estructuras de las tareas disponibles para ser ejecutadas; armamos un scheduler que determine la tarea a la que le toca ejecutase en un período de tiempo, y el mecanismo para el intercambio de tareas de la CPU; e iniciamos el kernel con una tarea inicial y colocamos una tarea idle para cuando no haya tareas en ejecución.
 
 + **idle.asm**: código de la tarea Idle.
