@@ -13,7 +13,8 @@ al nodo siguiente de la lista, mientras que en una lista doblemente enlazada cad
 Un arbol binario es un ABB si y solo si es nil o satisface todas las siguientes condiciones:
  	* Los valores en todos los nodos del subarbol izquierdo son menores que el valor en la raiz.
 	* Los valores en todos los nodos del subarbol derecho son mayores que el valor en la raiz.
-	* Los subarboles izquierdo y derecho son ABBs
+	* Los subarboles izquierdo y derecho son ABBs.
+    
 ![](img/arbol.jpeg)
 * **DiccionarioTrie_C++**: Implementacion de un diccionario sobre un arbol trie.
 Se usa el vector<Nodo*> como un dicc(int, Nodo*). Las claves son string y sus partes son char, en este escenario se asume un abecedario acotado (ASCII, 256 caracteres)
