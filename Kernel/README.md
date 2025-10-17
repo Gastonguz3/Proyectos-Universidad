@@ -1,12 +1,14 @@
 ## KERNEL
 
-El kernel fue construido con ayuda del [manual de Intel](https://www.intel.com/content/www/us/en/content-details/782158/intel-64-and-ia-32-architectures-software-developer-s-manual-combined-volumes-1-2a-2b-2c-2d-3a-3b-3c-3d-and-4.html) y fue principalmente desarrollado en assembler y en C. Puede ejecutar programas y tareas sencillas (en este caso, juegos).
+Es un software de 32 bits que ejecutar 4 juegos a la vez, fue desarrollado principalmente en assembler y C/C++, tomando como base el [manual de Intel](https://www.intel.com/content/www/us/en/content-details/782158/). Lo hice cuando curse "Organizacion Del Computador 2".
 
 ### ¿COMO EJECUTAR EL PROGRAMA?
 
 **REQUISITOS**: Vamos a utilizar como entorno de pruebas el programa **QEMU** (emulador de x86).
 Este nos permite simular el arranque de una computadora IBM-PC compatible. 
+
 Para instalar Qemu en linux correr: ` $ sudo apt-get qemu-system-i386`
+
 Para instalarlo en Windows seguir los pasos del siguiente link:  [QEMU Windows](https://linuxhint.com/qemu-windows/)
 
 Ejecutar en la terminal: 
